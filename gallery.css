@@ -1,0 +1,90 @@
+#navbar{
+  background:transparent;
+}
+.home{
+  background-image: url('./img/stockholm3.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 90%;
+  height: 100vh;
+  width: 100%;
+
+}
+#text{
+  color:#FFFFFF;
+  font-size:40px;
+
+  font-family: 'Source Code Pro', monospace;
+
+  opacity: 0;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+     -o-animation: fadein 2s; /* Opera < 12.1 */
+        animation: fadein 2s;
+}
+#text2{
+  color:#FFFFFF;
+  font-size:25px;
+  font-family: 'Source Code Pro', monospace;
+
+  opacity: 1;
+  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 4s; /* Firefox < 16 */
+    -ms-animation: fadein 4s; /* Internet Explorer */
+     -o-animation: fadein 4s; /* Opera < 12.1 */
+        animation: fadein 4s;
+}
+#text2 .col{
+  width:150px;
+  background-color:rgba(0, 0,0,0.5);
+
+}
+#text2 .col div{
+}
+#text2 .col div img{
+  max-height:100px;
+  max-width:300px;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+#nav{
+  font-size:25px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+#nav a{
+  text-decoration:none;
+  color:#FFFFFF;
+}
+#readmore{
+  opacity:1;
+}
